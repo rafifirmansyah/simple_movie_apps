@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Movie Apps | Details</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
+</head>
+<body class="bg-gray-300">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-lg">
+        <div class="container flex mx-auto py-4 px-20 items-center">
+            <div class="flex items-center justify-between">
+                <a href="index.html" class="text-2xl text-orange-500 font-semibold">Movie Apps</a>
+            </div>
+            <div class="relative ml-auto">
+                <input type="text" id="search" class="rounded-full py-2 text-sm px-2 focus:outline-none bg-gray-300" placeholder="Search">
+                <div class="bg-white shadow-lg fixed w-56 mt-5 h-40 overflow-auto hidden" id="sectionList">
+                    <ul class="px-4 py-4" id="listMovie">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- End navbar -->
+
+    <div class="container mx-auto px-20 py-20" id="detailMovie">
+        <!-- Details movie -->
+    </div>
+
+    <footer class="flex justify-center bg-white mt-10 py-10">
+        <label>Copyright &copy; rafifirmansyah.com </label>
+    </footer>
+
+    <script src="https://momentjs.com/downloads/moment.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
